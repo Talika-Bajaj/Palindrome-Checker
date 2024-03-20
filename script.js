@@ -9,9 +9,9 @@ function checkWord() {
   // Use for loop to divide the words into 2 half
   for (let i = 0; i < len / 2; i++) {
     if (word.charAt(i) != word.charAt(j)) {
-      show.innerText = "NOT PALINDROME!";
+      check.innerText = "NOT a PALINDROME!";
     } else {
-      show.innerText = "PALINDROME!";
+      check.innerText = "It's a PALINDROME!";
     }
     j--;
   }
