@@ -37,12 +37,13 @@ h5 {
 }
 
 #word {
-    padding: 18px 15px;
+    padding: 18px 10px;
     font-size: 22px;
     margin: 20px auto 30px;
     border-radius: 12px;
     border: none;
     width: 100%;
+    resize: none;
 }
 
 .btn {
@@ -70,11 +71,12 @@ h5 {
 #show {
     /* border: 2px solid blue; */
     display: none;
-    position: absolute;
-    top: 40%;
-    left: 39%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 29px 50px;
-    width: 23%;
+    /* width: 23%; */
     background-color: #824D74;
     color: white;
     border-radius: 15px;
@@ -106,3 +108,5 @@ h5 {
     background-color: #fff;
     color: black;
 }
+
+
