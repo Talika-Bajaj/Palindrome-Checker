@@ -2,13 +2,107 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: linear-gradient(0.25turn, teal 5%, antiquewhite 40%, navajowhite 54%, seagreen 88%);
+
 }
 
 .container {
-    border: 2px solid red;
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;    
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.input {
+    margin: 30px auto 0;
+    width: 50%;
+    padding: 25px;
+    background-color: rgba(0,0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#word {
+    padding: 18px 15px;
+    font-size: 22px;
+    margin: 20px auto 30px;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+}
+
+.btn {
+    margin: auto;
+    width: fit-content;
+}
+
+#btn {
+    padding: 13px 22px;
+    font-size: 21px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: indigo;
+    color: white;
+    font-weight: 600;
+}
+
+#btn:hover {
+    background-color: rebeccapurple;
+
 }
 
 #show {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: none;
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    padding: 29px 50px;
+    width: 23%;
+    background-color: #824D74;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#check {
+    font-size: 21px;
+}
+
+.info {
+    margin: 25px auto;
+    font-size: 18px;
+}
+
+#try {
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: darkslategray;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+#try:hover {
+    background-color: #fff;
+    color: black;
 }
